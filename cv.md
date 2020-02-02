@@ -1,10 +1,12 @@
 # Junior Developer Resume
 
-|1|Kalinichenko Anatoliy|
-|2|email: _tein.pirs@mail.ru_|
-|3|My goal in this course is to learn Java Script in an organized manner. I want to gain new knowledge and experience in programming in order to create something very cool.|
-|4|My skills: HTML5, CSS3|
-|5|```html
+1.  Kalinichenko Anatoliy
+2.  email: _tein.pirs@mail.ru_|
+3.  My goal in this course is to learn Java Script in an organized manner. I want to gain new knowledge and experience in programming in order to create something very cool.|
+4.  My skills: HTML5, CSS3|
+5.  ```html
+
+    ```
 
 <form name="sentMessage" id="contactForm" novalidate="" method="POST">
 							<div class="row">
@@ -39,4 +41,4 @@
 								</div>
 							</div>
 						</form>
-```|
+```
