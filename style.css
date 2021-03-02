@@ -2,24 +2,65 @@
   padding: 0;
   margin: 0;
 }
-body {
-  padding: 2em;
+h1 {
+  font-size: 50px;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+h3 {
+  margin-bottom: 40px;
+  background-color: #31343b;
+  padding: 10px;
+  border: 6px solid #31343b;
+  border-radius: 25px;
+}
+header {
+  background-color: #181b24;
+  color: white;
+}
+.dedicatedLine {
+  width: 350px;
+  background-color: #e7e8ea;
+}
+.mainInfo {
+  padding-top: 5%;
+  padding-right: 20%;
+}
+.wrapper {
+  margin: 0 auto;
   max-width: 1024px;
-  margin: auto;
+}
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.contacts ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.contacts ul li p:first-child {
+  padding-bottom: 10px;
+}
+.contacts ul li p a {
+  color: white;
+}
+.contacts ul li p a:hover {
+  color: yellow;
+}
+
+body {
   font-size: 1.2em;
   line-height: 1.2em;
-  background-color: seashell;
-  font-family: sans-serif;
+  font-family: "RocknRoll One", sans-serif;
+  line-height: 1;
 }
 .code {
   border: 2px solid silver;
   padding: 20px;
 }
-h1 {
-  text-align: center;
-  margin-bottom: 2em;
-}
-.image {
-  text-align: center;
-  padding: 1em;
+.sections {
+  display: flex;
+  flex-direction: row;
 }
