@@ -14,12 +14,16 @@ h3 {
   border: 6px solid #31343b;
   border-radius: 25px;
 }
+li {
+  list-style-type: none;
+}
 header {
   background-color: #181b24;
   color: white;
 }
 .dedicatedLine {
-  width: 350px;
+  flex-basis: 400px;
+  width: 400px;
   background-color: #e7e8ea;
 }
 .mainInfo {
@@ -28,7 +32,7 @@ header {
 }
 .wrapper {
   margin: 0 auto;
-  max-width: 1024px;
+  max-width: 1200px;
 }
 .info {
   display: flex;
@@ -49,6 +53,9 @@ header {
 .contacts ul li p a:hover {
   color: yellow;
 }
+a:hover {
+  color: green;
+}
 
 body {
   font-size: 1.2em;
@@ -63,4 +70,65 @@ body {
 .sections {
   display: flex;
   flex-direction: row;
+}
+footer {
+  background-color: #181b24;
+  color: white;
+}
+
+.blockSide {
+  padding-top: 50px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 50px;
+}
+section {
+  flex-basis: 800px;
+}
+
+.photo {
+  text-align: center;
+}
+.photo img {
+  width: 300px;
+  height: auto;
+}
+
+h2 {
+  padding-bottom: 20px;
+}
+.education {
+  padding-bottom: 15px;
+}
+
+.experience {
+  padding-bottom: 15px;
+}
+
+.blockSite {
+  padding-bottom: 30px;
+}
+
+.rsschool {
+  background-color: white;
+  border-radius: 15px;
+  padding: 5px;
+  height: 40px;
+}
+
+.footerBlock {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 70px;
+  gap: 20px;
+  align-items: center;
+}
+
+.footerBlock p a {
+  color: white;
+}
+
+.footerBlock p a:hover {
+  color: yellow;
 }
