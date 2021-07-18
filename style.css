@@ -90,8 +90,10 @@ section {
   text-align: center;
 }
 .photo img {
-  width: 300px;
+  width: 250px;
   height: auto;
+  margin: 10px 0;
+  border-radius: 10px;
 }
 
 h2 {
