@@ -2,24 +2,135 @@
   padding: 0;
   margin: 0;
 }
+h1 {
+  font-size: 50px;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+h3 {
+  margin-bottom: 40px;
+  background-color: #31343b;
+  padding: 10px;
+  border: 6px solid #31343b;
+  border-radius: 25px;
+}
+li {
+  list-style-type: none;
+}
+header {
+  background-color: #181b24;
+  color: white;
+}
+.dedicatedLine {
+  flex-basis: 400px;
+  width: 400px;
+  background-color: #e7e8ea;
+}
+.mainInfo {
+  padding-top: 5%;
+  padding-right: 20%;
+}
+.wrapper {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.contacts ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.contacts ul li p:first-child {
+  padding-bottom: 10px;
+}
+.contacts ul li p a {
+  color: white;
+}
+.contacts ul li p a:hover {
+  color: yellow;
+}
+a:hover {
+  color: green;
+}
+
 body {
-  padding: 2em;
-  max-width: 1024px;
-  margin: auto;
   font-size: 1.2em;
   line-height: 1.2em;
-  background-color: seashell;
-  font-family: sans-serif;
+  font-family: "RocknRoll One", sans-serif;
+  line-height: 1;
 }
 .code {
   border: 2px solid silver;
   padding: 20px;
 }
-h1 {
-  text-align: center;
-  margin-bottom: 2em;
+.sections {
+  display: flex;
+  flex-direction: row;
 }
-.image {
+footer {
+  background-color: #181b24;
+  color: white;
+}
+
+.blockSide {
+  padding-top: 50px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 50px;
+}
+section {
+  flex-basis: 800px;
+}
+
+.photo {
   text-align: center;
-  padding: 1em;
+}
+.photo img {
+  width: 250px;
+  height: auto;
+  margin: 10px 0;
+  border-radius: 10px;
+}
+
+h2 {
+  padding-bottom: 20px;
+}
+.education {
+  padding-bottom: 15px;
+}
+
+.experience {
+  padding-bottom: 15px;
+}
+
+.blockSite {
+  padding-bottom: 30px;
+}
+
+.rsschool {
+  background-color: white;
+  border-radius: 15px;
+  padding: 5px;
+  height: 40px;
+}
+
+.footerBlock {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 70px;
+  gap: 20px;
+  align-items: center;
+}
+
+.footerBlock p a {
+  color: white;
+}
+
+.footerBlock p a:hover {
+  color: yellow;
 }
