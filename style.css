@@ -135,3 +135,6 @@ h2 {
 .footerBlock p a:hover {
   color: yellow;
 }
+.rsschool a img{
+  width: 100px;
+}
