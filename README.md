@@ -1,0 +1,1 @@
+[https://teinpirs.github.io/rsschool-cv/index.html](https://teinpirs.github.io/rsschool-cv/index.html)
